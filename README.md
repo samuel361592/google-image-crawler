@@ -28,7 +28,7 @@
 
 ## 安裝與執行
 
-### 1️⃣ 安裝相依套件
+### 1️ 安裝相依套件
 
 ```bash
 pip install -r requirements.txt
@@ -36,14 +36,14 @@ pip install -r requirements.txt
 pip install requests python-dotenv
 ```
 
-2️⃣ 設定 API 金鑰與 CSE ID
+2️ 設定 API 金鑰與 CSE ID
 建立 .env 檔案（可參考 .env.example）：
 
 API_KEY=你的 Google API 金鑰
 SEARCH_ENGINE_ID=你的 Google Custom Search Engine ID
 你可以到 Google Cloud Console 取得金鑰，並在 Programmable Search Engine 建立搜尋引擎。
 
-3️⃣ 執行主程式
+3️ 執行主程式
 ```bash
 python picture.py
 ```
