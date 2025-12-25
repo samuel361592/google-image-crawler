@@ -29,10 +29,7 @@
 ## 安裝與執行
 
 ### 安裝相依套件
-
 ```bash
-pip install -r requirements.txt
-# 或手動安裝
 pip install requests python-dotenv
 ```
 
